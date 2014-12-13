@@ -23,10 +23,11 @@
     //
     function onDeviceReady() {
         var element = document.getElementById('deviceProperties');
-        element.innerHTML = 'Device Model: '    + device.model    + '<br />' +
-                            'Device Cordova: '  + device.cordova  + '<br />' +
-                            'Device Platform: ' + device.platform + '<br />' +
-                            'Device UUID: '     + device.uuid     + '<br />' +
+        element.innerHTML = 'Device Name: ' + device.model    + '<br />' +
+                            'Model: '  + device.cordova  + '<br />' +<br>
+                            'Cordova Ver.: '  + device.cordova  + '<br />' +
+                            'Platform: ' + device.platform + '<br />' +
+                            'Device UUID: ' + device.uuid     + '<br />' +
                             'Device Version: '  + device.version  + '<br />';
     }
 
@@ -46,9 +47,13 @@
 
   <div data-role=content>
   
-	<p id="deviceProperties">Loading device properties...</p>
+	<div id="deviceProperties">Loading device properties...</div>
+    
+    <div>
+    	
+        <img src="images/mobile.jpg" alt="mobile" width="339" height="321"></div>
 			
-  </div>
+  	</div>
 
   <div data-role="footer" data-position="fixed" data-fullscreen="true">
     <h4>Rick Mitchell</h4>
@@ -58,3 +63,4 @@
 
 </body>
 </html>
+

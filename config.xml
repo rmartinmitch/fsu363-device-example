@@ -7,7 +7,7 @@
 		versionCode = "1"
         version   	= "1.0.0">
 
-    <name>PhoneGa Device API</name>
+    <name>Device Info</name>
 
     <description>
         Demonstrates Device API in PhoneGap
