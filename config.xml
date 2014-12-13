@@ -87,7 +87,7 @@
     <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
 
 	<!-- Define ap defalut splash screen for each platform. -->
-    <gap:splash src="images/xyz.jpg" /> 
+    <gap:splash src="images/splash.png" /> 
 	 
 	<!-- Define app splash screen for each platform. -->
 	
